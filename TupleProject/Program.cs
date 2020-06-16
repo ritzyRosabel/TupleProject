@@ -13,6 +13,7 @@ namespace TupleProject
             var person = Tuple.Create(12, "Miracle", "Oshey");
             DisplayResult(person);
             Console.ReadLine();
+            //Miracle Oshey is 12 years old
         }
 
         private static void DisplayResult(Tuple<int, string, string> person)

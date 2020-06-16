@@ -32,6 +32,12 @@ namespace TupleProject
             foreach (var tuple in tuples)
             {
                 Console.WriteLine(tuple);
+                //result
+                //(1, One)
+                //(2, Two)
+                // (3, Three)
+                //(4, Four)
+                //(5, Five)
             }
             Console.ReadLine();
             //Miracle Oshey is 12 years old

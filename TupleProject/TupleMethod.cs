@@ -14,6 +14,7 @@ namespace TupleProject
             int count = 3;
             string colors = "green white green";
             Tuple <int, string, string> tuple = new Tuple<int, string, string>(1, "Kemi", "Kolade");
+            var sample = Tuple.Create<int, string>(22, "age");//Tuple static helper class
                 return tuple;
             //yet to find out the return type to use when i waant to return a Tuple
         }

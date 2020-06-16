@@ -28,6 +28,10 @@ namespace TupleProject
             _ = sample3.Item7;
             _ = sample3.Rest;
             var sample4 = Tuple.Create(1, 2, 3, 4, 5, 6, 7, Tuple.Create("Hey","This","is","me","learning","Tuple",".",Tuple.Create(1,2,3,4,5,6,7,8)));//you can expand your tuple instance by creating a nested tuple
+            _ = sample4.Item1;
+            _ = sample4.Rest.Item1;
+            _ = sample4.Rest.Item1.Item1;//accessing elements in nested tuple
+
             return tuple;
             //yet to find out the return type to use when i waant to return a Tuple
         }

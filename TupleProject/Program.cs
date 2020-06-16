@@ -12,7 +12,7 @@ namespace TupleProject
         {
             var person = Tuple.Create(12, "Miracle", "Oshey");
             DisplayResult(person);
-           Console.WriteLine( GetTuple(person));
+           Console.WriteLine( GetTuple(person));//(12, Miracle, Oshey)
 
             Console.ReadLine();
             //Miracle Oshey is 12 years old

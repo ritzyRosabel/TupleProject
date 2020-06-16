@@ -8,6 +8,11 @@ namespace TupleProject
 {
     class Program
     {
+        //Tuple
+        //use tuple when
+        //When you want to return multiple values from a method without using ref or out parameters.
+        //When you want to pass multiple values to a method through a single parameter.
+        //When you want to hold a database record or some values temporarily without creating a separate class.
         static void Main(string[] args)
         {
             var person = Tuple.Create(12, "Miracle", "Oshey");

@@ -22,8 +22,17 @@ namespace TupleProject
         {
             var person = Tuple.Create(12, "Miracle", "Oshey");
             DisplayResult(person);
-           Console.WriteLine( GetTuple(person));//(12, Miracle, Oshey)
-
+            List<Tuple<int, string>> tuples = new List<Tuple<int, string>>();//list of tuple
+            tuples.Add(Tuple.Create(1, "One"));
+            tuples.Add(Tuple.Create(2, "Two"));
+            tuples.Add(Tuple.Create(3, "Three"));
+            tuples.Add(Tuple.Create(4, "Four"));
+            tuples.Add(Tuple.Create(5, "Five"));
+            Console.WriteLine(GetTuple(person));//(12, Miracle, Oshey)
+            foreach (var tuple in tuples)
+            {
+                Console.WriteLine(tuple);
+            }
             Console.ReadLine();
             //Miracle Oshey is 12 years old
         }
